@@ -1,0 +1,11 @@
+Output: Simple BOM
+Type  : SimpleBOM
+From  : Variant [[No Variations]] of Project [Free Documents]
+   Generated File[3Öá5.2-PCB-V3.3.BOM]
+   Generated File[3Öá5.2-PCB-V3.3.CSV]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 14:13:28 On 2025/2/21
