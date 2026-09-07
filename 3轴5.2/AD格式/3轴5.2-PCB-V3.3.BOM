@@ -1,0 +1,81 @@
+Bill of Material for 
+On 2025/2/21 at 14:13:28
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+                     0603R            1    R103                         Resistor             
+                     SIP4             1    P50                                               
+ 0.1                 0805R            8    R29, R30, R31, R32, R33, R34 Resistor             
+                                           R35, R36
+ 0                   0603R            4    R53, R54, R55, R56           Resistor             
+ 1.8K                0603R            2    R7, R75                      Resistor             
+ 100                 0603R           13    R16, R22, R25, R52, R59, R60 Resistor             
+                                           R61, R62, R63, R64, R65, R80
+                                           R91
+ 100uF/35V           电解电容贴片6X6        7    C5, C7, C10, C13, C15, C24                        
+                                           C80
+ 100uF/63V           电解电容贴片10x10      2    C1, C2                                            
+ 103?                0603C            1    C25                                               
+ 103                 0603C            7    C17, C20, C23, C26, C60, C61                      
+                                           C62
+ 104                 0603C           20    C9, C14, C16, C18, C19, C27  Capacitor (Semiconductor SIM Model) 
+                                           C38, C39, C40, C41, C42, C43
+                                           C44, C45, C52, C81, C102
+                                           C106, C107, C108
+ 105                 0805C            7    C4, C12, C30, C31, C32, C33                       
+                                           C70
+ 10K                 0603R           24    R4, R11, R14, R19, R21, R45  Resistor             
+                                           R46, R47, R48, R49, R50, R51
+                                           R57, R58, R66, R67, R68, R70
+                                           R72, R73, R81, R90, R102
+                                           R104
+ 10K                 松下贴片电位器3x3       4    R41, R42, R43, R44                                
+ 1117-3.3            SOT-223          1    U5                                                
+ 12M                 晶振贴片49SSMD       1    Y1                           Crystal Oscillator   
+ 16K                 0603R            1    R1                           Resistor             
+ 1K!!                0603R            1    R100                         Resistor             
+ 1K?                 0603R            1    R74                          Resistor             
+ 1K                  0603R            6    R3, R27, R71, R76, R77, R78  Resistor             
+ 2.37K               0603R            1    R8                           Resistor             
+ 20K                 0603R            4    R37, R38, R39, R40           Resistor             
+ 224                 0603C            4    C46, C47, C48, C49                                
+ 22pF                0603C            2    C21, C22                     Capacitor (Semiconductor SIM Model) 
+ 2P                  HDR1X2_CON       6    P5, P6, P9, P13, P23, P25                         
+ 2P                  VH3.96-2P直插座     1    P17                                               
+ 2P-3.96             2P-P3.96         1    P15                                              
+ 2P红色                HDR1X2_CON       1    P24                                               
+ 33nF                0603C            1    C56                                               
+ 33pF                0603C            2    C54, C55                     Capacitor (Semiconductor SIM Model) 
+ 3P                  HDR1X3_CON       8    P3, P4, P7, P8, P11, P12, P14                      
+                                           P16
+ 44.2K               0603R            1    R6                           Resistor             
+ 47uF/50V            电解电容贴片6X6        4    C34, C35, C36, C37                                
+ 47uH/5A             电感贴片12X12        2    L1, L2                       Inductor             
+ 4P                  HDR1X4_CON       4    P19, P20, P21, P22                                
+ 4P                  SIP4             4    J6, J7, J8, J9                                    
+ 680!!               0603R            1    R15                          Resistor             
+ 74LVC1G04           SOT-23-5         1    U15                                               
+ 74LVC1G17           SOT-23-5         1    U16                                               
+ 8M                  晶振贴片             1    Y2                           Crystal Oscillator   
+ 8P                  IDC8             1    P18                                               
+ CH340G              SOP16            1    U6                                                
+ CJ7805              TO-263-2         1    U1                                                
+ DC007B              DC007B           1    P1                                                
+ F50N06              TO-252           1    Q2                           N-Channel MOSFET     
+ F540NS              TO-263-2         1    Q1                           N-Channel MOSFET     
+ Header 3X2          HDR2X3           1    P30                          Header, 3-Pin, Dual row 
+ HR4988SQ            QFN28            4    U8, U9, U10, U11                                  
+ KF300               直插座2P-KF300      1    P27                                               
+ KF300               直插座4P-KF300      1    P2                                                
+ LM2576HVS-ADJ       TO-263           1    U2                           Simple Switcher 3A Step Down Voltage Regulator 
+ SS56                SMA              7    D5, D6, D7, D9, D11, D17, D18                      
+ SS8050              SOT-23           1    Q3                                                
+ STM32F103C8T6/CBT6  LQFP48           1    U4                           STM32 ARM-based 32-bit MCU with 32 Kbytes Flash, 48-pin LQFP, Industrial Temperature 
+ USB_TYPE-B          USB_TYPEB        1    P10                                               
+ XL4015              TO-263           1    U3                                                
+ 按键                  按键6x6贴片          1    K2                                                
+ 按键                  船型开关KCD1-101     1    K1                                                
+ 红光                  0603LED          3    D4, D10, D13                                      
+ 快恢复二极管RS2M          SMC              2    DZ1, DZ2                                          
+ 绿光                  0603LED          3    D12, D15, D16                                     
+ 稳压二极管SMAZ10V        SMA              1    DZ4                                               
