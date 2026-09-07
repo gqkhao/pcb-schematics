@@ -1,0 +1,410 @@
+#page{ min-height:1000px;}
+#mainContent{width:640px;}
+#sidebar{width:300px;}
+/********** mainContent *********/
+/*电路风格标题*/
+.mainBox-hd-e{height:28px;padding:1px 5px 3px;line-height:28px;overflow:hidden;background:url(/style_326/images/bg-detail.png) -310px 0;}
+/*橙色提示*/
+.orgTip{position:absolute;height:22px;line-height:22px;padding:1px 35px 0 15px;background:url(/style_326/images/bg-detail.png) no-repeat -310px -245px;}
+.orgTip-l,
+.orgTip-r,
+.orgTip-r-e{width:10px; height:23px; position:absolute;top:0;background:url(/style_326/images/bg-detail.png) -710px -245px;}
+.orgTip-l{left:0;}
+.orgTip-r{right:0;width:25px;background-position:-734px -245px;}
+.orgTip-r-e{right:0;width:25px;background-position:-680px -245px;}
+/*内容区文本图片*/
+.max-wImg p{line-height:24px;margin-bottom:20px;font-size:14px;color:#000; text-indent:2em;}
+.max-wImg img{max-width:560px;}
+.max-wImg strong{font-weight:bold;}
+
+/********** sideBar *********/
+.downSidebar{ padding-top:80px;}
+/*sideBox*/
+.sideBox{margin-bottom:10px;}
+.sideBox-hd{height:28px;line-height:30px; overflow:hidden; font-size:14px; color:#0b3b8c; text-indent:15px;background:url(/style_326/images/bg-detail.png) no-repeat 0 -110px;}
+.sideBox-hd.s2{background-position:0 -60px;}
+.sideBox-bd{border-left:1px solid #d3d3d3;border-right:1px solid #c4c4c4;padding:10px 9px 5px;width:280px;}
+.sideBox-ft{height:5px;overflow:hidden; background:url(/style_326/images/bg-detail.png) no-repeat 0 -155px;}
+.sideBox-ft.bgF3{background-position:0 -145px;}
+/*链接色彩*/
+.sideBox a,.sideBox a:visited{color:#0B3B8C;}
+/*下载排行*/
+#downRank .sideBox-hd{height:22px;background-position:0 -165px; line-height:99em;}
+#downRank .sideBox-bd{border-color:#c90c10;}
+#downRank .sideBox-ft{background-position:0 -195px;}
+/*深度阅读*/
+#deepRead .sideBox-hd{background:url(/style_326/images/bg-detail.png);}
+#deepRead .sideBox-bd{border-color:#c90c10; padding-bottom:0;}
+#deepRead .sideBox-ft{height:15px;background:url(/style_326/images/bg-detail.png) 0 -38px;}
+/*上传*/
+#sideUpdata{display:block;width:306px; height:80px;position:absolute;text-indent:-9999px;top:-3px;left:-3px;background:url(/style_326/images/bg-detail.png) 0 -258px;}
+#d-sideUp-cir{ width:45px; height:21px;background:url(/style_326/images/bg-detail.png) -211px -216px; position:absolute; top:31px;left:-21px;}
+/*热门词*/
+#hot-tag strong{line-height:200%;margin-left:10px; white-space:nowrap; color:#000;}
+#hot-tag a{color:#000; font-size:18px;}
+
+/************** 下载信息页 **************/
+/*资料介绍*/
+#downInfo-hd{background:url(/style_326/images/bg-detail.png) -310px 0;}
+/*参数*/
+#downInfo-bd{padding:5px 9px 10px;border:1px solid #c4c4c4;border-width:0 1px 0;}
+#downInfo-bd h1{height:39px;width:620px;overflow:hidden; color:#000; font-size:26px; text-indent:5px;}
+.dataParam{padding:12px 0 0 35px;height:23px;background:url(/style_326/images/bg-detail.png) -320px -40px;}
+.d-jiaohu{margin:0 0 15px 35px; padding-top:10px;text-align:center; width:360px;}
+.d-update{padding:5px 0 5px 22px;background:url(/style_326/images/bg-detail.png) no-repeat -932px -152px;}
+.d-memberInfo{width:180px;height:80px;right:30px;top:62px;padding-left:15px;border-left:1px dashed #d8d8d8;}
+.d-memberInfo a{text-decoration:underline;}
+.d-m-face{height:80px;}
+.d-m-face .imgA{margin:2px 5px 0 0;width:52px;}
+/*分享到*/
+/*----update 2012.2.29 by qin-------
+.share-wrap{position:relative; top:-30px; float:right;width:250px;height:30px;margin-right:-50px;overflow:hidden; }
+.share-wrap .share-title{color:#000;}
+#shareBox .share-wrap{top:0px; float:left;margin-right:0px;}*/
+/*投票*/
+.d-vote{width:350px; margin:0 auto;}
+/*介绍*/
+#dataIntro,#f-dataIntro{border-top:1px dashed #d8d8d8;padding-top:15px;margin-bottom:10px;}
+/*标签*/
+.tagDown{width:310px; color:#c00; margin-bottom:10px;}
+/*隐藏介绍*/
+#showMore{position:absolute;bottom:15px;right:10px; padding-right:8px;width:117px;height:30px;line-height:30px;_line-height:32px;color:#090;cursor:pointer;z-index:9;background:url(/style_326/images/bg-detail.png) -180px -343px; text-align:center; }
+#showMore.pickUp{background-position:-180px -376px;color:#999;}
+#downInfo-ft{height:50px;border:1px solid #c4c4c4;border-top:0;}
+/*下载地址*/
+.mainBox-hd-e .orgTip{right:18px;top:4px;}
+#downUrl-hd .ico{margin-top:6px;}
+#downUrl-bd{border:1px solid #d8d8d8; border-top:0; padding:5px 14px 15px;}
+/*
+2015-04-10
+#downUrl .btnDown{float:left;width:100px;height:38px; padding-left:20px;line-height:28px;_line-height:30px;margin:5px 5px 0 0;color:#090;text-align:center;background:url(/style_326/images/bg-detail.png) -312px -395px;}
+#downUrl .btnDown:hover{background-position:-442px -395px;}
+*/
+/*相关下载、阅读*/
+#relateWrap h2{color:#000;font-size:14px;padding-top:9px;margin:10px 0 0;font-weight:bold;border-top:1px dashed #d8d8d8;}
+#relateWrap li{float:left;width:275px; margin-right:10px;}
+/*前往下载*/
+
+#df-downUrl a{display:none;}
+#df-downUrl #df-btnDown{display:block;width:175px; padding:0; text-indent:-9999px; height:60px;margin:0 0 5px 120px;background:url(/style_326/images/bg-detail.png) -310px -319px;}
+#df-downUrl #df-btnDown:hover{background-position:-500px -319px;}
+
+#downInfo-bd .text-hide{height:50px;width:390px;overflow:hidden;}
+.pcb_ad_btn{
+	float:left;display:inline;width:100px;height:40px;margin:0 0 10px 0px;padding:0 15px;line-height:99em;overflow:hidden;
+	background:url(/skin-2012/images/data-btn.png) no-repeat;
+}
+.pcb_ad_btn{ background:url(/images2012/pcb-ad-btn.png) no-repeat;margin-left:28px; }
+
+/*VIP下载修改 2015-04-10*/
+.text-hide-cover{text-indent: 0;}
+#goDown, #vipDown{float: left;margin: 0 15px 0 0;width: 124px;height: 35px;line-height: 35px;color: #fff;font-family: "微软雅黑";font-size: 18px;text-align: center;}
+#goDown{background: #df341a;}
+#vipDown{background: #008000;}
+#goDown:hover{text-decoration: none;}
+#vipDown:hover{text-decoration: none;}
+/*下方下载地址位置样式*/
+#downUrl{margin-bottom: 10px;}
+#downUrl .btnDown{float: left;width: 135px;height: 35px;line-height: 35px;margin-right: 15px;overflow: hidden;color: #fff;background-color: #039be5;font-size: 16px;text-align: center;}
+#downUrl #df-btnDown{background-color: #df341a;}
+#downUrl .btnDown:hover{text-decoration: none;}
+
+.info-btn-area a:hover{text-decoration: none;}
+.btn-download-url, .btn-vdownload-url{width: 124px;height: 35px;line-height: 35px;color: #fff;background-color: #df341a;font-size: 18px;text-align: center;}/*下载地址按钮*/
+.btn-download-url{background: #df341a;}
+.btn-vdownload-url{background: #008000;}
+.btn-download-url:hover, .btn-vdownload-url:hover{color: #fff;}
+.btn-stowData{margin-top: 6px;padding: 5px 10px;background: #e4e4e4;color: #666;}/*收藏按钮*/
+.btn-stowData:hover{color: #666;}
+#num-error-tip{position: absolute;width: 100%;top: 35px;left: 0;color: #cc0000;font-size: 14px;text-align: center;text-indent: 7px;}
+#needvip{display: inline-block;zoom: 1;*display: inline;width: 115px;height: 30px;line-height: 30px;background-color: #008000;color: #fff;border-radius: 3px;}
+#needvip:hover{color: #fff;text-decoration: none;}
+.upfilefornum{margin-left: 15px;color: #df341a;text-decoration: underline;}
+/*2015-04-10 end*/
+
+/************** 文章信息页 **************/
+#arcInfo-hd{text-align:center;border-left:1px solid #c4c4c4;border-right:1px solid #c4c4c4;}
+#arcInfo-bd{border:1px solid #c4c4c4; border-top:0; padding:5px 29px 10px;width:580px;overflow:hidden;}
+.elecTop-mainBox{background:url(/style_326/images/bg-detail.png) -310px -270px;}
+#arcTag{height:30px; background:url(/style_326/images/bg-detail.png) -310px -283px;}
+#arcTag strong{ position:absolute;left:40px; top:12px;color:#000;}
+#arcTag a{ margin-right:10px;}
+.stowCmdErr span{margin:0 5px;color:#999;font-family:Arial;}
+
+
+
+/* 分页 -----------------------------------------------*/
+.page-num,.page-cur,.pageBreak,.page-prev,.page-next{ 
+		display:inline-block;margin:0 2px;width:28px;height:22px;overflow:hidden;*zoom:1;
+		border:1px solid #d8d8d8;background:#fff;
+		color:#000;font:14px/22px Arial;text-align:center;border-radius:2px;
+}
+.pageBreak{border:0;}
+.page-num:hover,
+.page-cur,
+.page-prev:hover,
+.page-next:hover{ background:#c00;border-color:#c00;color:#fff; font-weight:bold;text-decoration:none;}
+.page-prev,.page-next{font-size:12px;line-height:26px\9;width:60px;vertical-align:top;}
+.page-prev.noLink,.page-prev.noLink:hover{color:#999;background:#fff;cursor:text;}
+
+/*文章分页标题*/
+/*.pt-first{font-size:18px; color:#333;text-align:center;}*/
+.pagn-title{padding-left:14px; padding-right:14px}
+.pagn-title .f18{font-weight:bold;color:#000;}
+.pt-num,.pt-cur{ float:left; width:275px; text-indent:5px;overflow:hidden; height:24px; line-height:24px;}
+.pt-cur{color:#666;}
+
+/*分享到*/
+.shareTo{display:none;height:20px;background:url(/style_326/images/common/shareIcon.png) no-repeat 38px 0;}
+.shareTo p{width:50px;}
+.shareTo a{width:20px;height:20px;float:left;display:inline;margin-right:12px;text-indent:-3000px;}
+/*投票*/
+#ding,
+#cai{cursor:pointer;width:150px;height:38px;float:left;display:inline;background:url(/style_326/images/common/vote.png) no-repeat;}
+#ding:hover,
+#ding.hover{background-position:0 -40px;text-decoration:none;}
+#cai{float:right;background-position:0 -80px;}
+#cai:hover,
+#cai.hover{background-position:0 -120px;text-decoration:none;}
+#vote p{line-height:12px;margin-top:8px;color:#000;text-indent:32px;}#vote .dingNum,#vote .caiNum{margin-top:3px;color:#999;}
+/*收藏*/
+#stowcount{color:#f60;}
+/*ad*/
+.google300x250{width:300px;height:250px;}
+
+/*modal*/
+#dialogBox{position:absolute;padding:10px;border:5px solid #c4c4c4;background:#fff;}
+#btn-closeDialog{cursor:pointer;text-indent:-9999px;width:20px;height:20px;position:absolute;top:5px;right:5px;background:url(/style_326/images/bg-header.png) no-repeat -910px -52px;}
+
+/*列表页*/
+#sideCategory li{width:125px;float:left;}
+#showAllCategory{display:block; width:100px; height:24px; line-height:24px; border:1px solid #d8d8d8; background:#fff; margin:10px auto 0; text-align:center;}
+#showAllCategory:hover{background:#FFFFD8;text-decoration:none;}
+
+/*头顶广告*/
+#topJf{height:90px;}
+/*
+#topJf{height:90px;}
+*/
+/*
+#topJf img{padding:1px; border:1px solid #d8d8d8; border-top:0; width:470px; margin:0 3px; height:60px;}
+*/
+/*#topJf{height:90px;overflow:hidden;}*/
+/*
+#headJf{width:950px;margin:5px;height:157px;}
+*/
+/*.yqjPage #headJf{height:64px;overflow:hidden;}*/
+
+/*下载地址广告09.20*/
+.ad-down{height:30px;margin-top:5px;padding:3px 10px;border:1px dashed #e0e0e0;background-color:#ffffe9;}
+.ad-down a{margin:0 5px;color:#c00;font-size:14px;line-height:30px;font-weight:bold;}
+
+
+/*图片列表2011.09.30*/
+.imgList {width:100%;overflow:hidden;}
+.imgList li { display:inline; float:left; width:33.2%; overflow:hidden;  padding:3px 0 7px; color:#999; text-align:center; }
+.imgList a { display:block; width:90%; margin:0 5%;}
+.imgList img { display:block; margin:0 auto 3px; padding:2px; border:1px solid #d8d8d8; }
+.imgList .tit, .img-a .tit{ display:block; height:1.5em; overflow:hidden; line-height:1.5; cursor:pointer;}
+.imgList a:hover {text-decoration:none;}
+.imgList a:hover img, .img-a a:hover img{ border-color:#c00;}
+.imgList a:hover .tit, .img-a a:hover .tit{ text-decoration:underline;color:#c00;}
+/* 每排li数量 */
+.oneRow-1item li { width:99.9%;}
+.oneRow-2item li { width:49.9%;}
+.oneRow-4item li { width:24.9%;}
+.oneRow-5item li { width:20%;}
+/* .tit两行字 */
+.tit-2Row .tit{height:3em;}
+
+/*下载地址 ---------------*/
+.link-relate{margin:5px 0 10px;}
+.btnDown{float: left;overflow: hidden;width: 135px;height: 35px;line-height: 35px;margin-right: 15px;color: #fff;font-size: 16px;text-align: center;}
+.dianxinDown{background: #df341a;}
+.vipDown{background: #039be5;margin: 0;}
+.btnDown:hover{color: #fff;text-decoration: none;}
+.download-explain{margin:3px 0 10px;}
+/*跳转vip选择页面*/
+.charn-tips{margin: 28px auto 0;font-family: "microsoft yahei";font-size: 17px;text-align: center;}
+.charn-tips a{display: inline-block;zoom:1;*display: inline;width: 120px;height: 40px;line-height: 40px;color: #fff;border-radius: 3px;}
+.charn-tips a:hover{color: #fff;text-decoration: none;}
+.recharge-vip{margin-right: 20px;background-color: #008000;}
+.recharge-not{background-color: #999;}
+.vip-dwnred{color: #cc0000;}
+.downtip-vipft{padding: 20px 0 15px;}
+.downtip-vipft a{display: inline-block;width: 100px;height: 30px;line-height: 30px;color: #fff;background-color: #008000;border-radius: 3px;}
+.downtip-vipft a:hover{text-decoration: none;}
+/*下载对话框 ----------------------------------------------*/
+/*.downtip{margin:30px 0 0;text-align:center;}
+.downtip-hd{font-size:14px;}
+.downtip-bd{margin-top:20px;}
+.downtip-ft{margin-top:30px;}*/
+.downtip{margin:20px 0 0;text-align:center;}
+.downtip-hd{font-size:14px;}
+.downtip-bd{margin-top:15px;color:#999;}
+.downtip-ft{margin-top:20px;}
+/*积分不够对话框*/
+.downfail{padding:10px 15px;}
+.downfail-bd{margin-top:20px;padding-top:15px;border-top:1px solid #d8d8d8;line-height:1.8;}
+.downfail-ft{margin-top:30px;text-align:center;}
+/*报错*/
+.err-dialog{margin:20px 30px 0;}
+.choose-errType{margin-bottom:5px;color:#7a7a7a;}
+.err-type{display:inline-block;*zoom:1;width:80px;height:30px;border:1px solid #d8d8d8;border-radius:3px;line-height:30px;text-align:center;cursor:pointer;}
+.err-type:hover,
+.select-type{background:#ffffe9;border-color:#c00;color:#c00;}
+.errContent{width:240px;height:50px;overflow:auto;padding:5px;border:1px solid #d8d8d8;border-radius:3px;}
+
+.f18{font-size:14px;}
+
+/*新版评论 --------------------------------------------*/
+#subCmt{display:none;}
+/*用户评论 ---------------*/
+#userComment{font-family:"微软雅黑";}
+.comment{padding:15px 0 15px 48px;*zoom:1;}
+.depth-0{border-bottom:1px solid #d8d8d8;}
+.c-floor{float:right;color:#ddd;font-size:18px;}
+.c-avatar{_display:inline;float:left;width:36px;height:36px;overflow:hidden;margin-left:-48px;border-radius:3px;}
+.c-content{margin:-2px 48px 0 0;}
+.c-content-bd{margin-bottom:7px;}
+.c-time{color:#999;}
+.c-reply{margin:0 10px;color:#005ba0;}
+/*children*/
+.children .comment,
+.temp-comment {
+	padding: 10px 10px 10px 52px;
+	margin-top: 10px;
+}
+.children .c-avatar,
+.temp-comment .c-avatar{
+	margin-left:-42px;
+	width: 32px;
+	height: 32px;
+}
+.depth-2,.depth-4,.depth-6,.depth-8{background:#fff;border-radius:3px;}
+.depth-1,.depth-3,.depth-5,.depth-7{background:#f3f3f3;border-radius:3px;}
+
+/*评论表单----------------*/
+.userCmt-bd{ border:1px solid #c4c4c4; border-top:0; padding:5px 24px 9px; width:590px; overflow:hidden;}
+.commentForm-area{margin:20px 0 10px;}
+.commentForm-area h3{font-size:14px;line-height:2.0;color:#2a78b4;}
+.msg-area{width:100%;height:100px;}
+.msg-area-bor{height:100px;border:1px solid #d8d8d8;}
+.comment-msg{
+	display:block;width:98%;height: 98px;padding: 4px 6px;overflow:auto;
+	background:#fff url(http://skin.elecfans.com/images/msg.png) no-repeat center bottom;
+	border: 1px solid #d8d8d8;border-radius:3px;
+	line-height: 20px;
+}
+.comment-btn-area{margin-top:5px;}
+.comment-btn-area .btn-hasLoading-wrap{float:right;}
+.cmt-tip{float:left;padding-left:10px;color:#999;}
+
+/*回复*/
+.replyForm-wrap{margin-top:10px;}
+
+/*提交评论遮罩层*/
+.cmt-overlayer{
+	padding:30px 0;text-align:center;
+}
+
+
+.key{color:#005ba0;text-decoration:underline;}
+.key:hover{color:#c00;}
+
+.lp-listBox{background:#fff;}
+
+/* PCB 广告样式 add by liuping 2014年8月29日*/
+.pcb_ad {
+    bottom: -15px;
+    font-size: 12px;
+    left: 0;
+    line-height: 18px;
+}
+.pcb_ad_title {
+    background: none repeat scroll 0 0 #ffffe9;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    color: #c00;
+    float: left;
+    height: 34px;
+    padding: 2px 8px 5px;
+    width: 24px;
+}
+.pcb_ad_content {
+    float: left;
+    height: 50px;
+    padding-left: 3px;
+    width: 290px;
+    /*margin-left: 70px;*/
+}
+.pcb_ad_content a {
+    background: none repeat scroll 0 0 #ffffe9;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    color: #c00;
+    display: block;
+    font-weight: bold;
+    padding: 2px 9px 3px;
+    text-decoration: underline;
+}
+.pcb_ad_content strong {
+    display: block;
+    font-weight: bold;
+}
+.pcb_ad_content a:hover {
+    background: none repeat scroll 0 0 #ffffe9;
+    border: 1px solid #d8d8d8;
+}
+/* end PCB 广告*/
+
+/*门户全新登录框 2015-07-09*/
+.dialog1{width:100%;height:100%;overflow:hidden;background:#fff;font-family: "microsoft yahei";}
+/*hd*/
+.dialog-hd1 {height:50px;overflow:hidden;border-bottom:1px solid #F1F1F1;background:#F6F6F6;color:#555;font-size:20px;line-height:50px;text-indent:15px;}
+.dialog-hd1 span{font-size:12px;color:#eee;font-family:arial;}
+.dialog-hd1 a{color:#eee;}
+/*bd*/
+.dialog-bd1{padding:10px;}
+.btnnew{display: inline-block;border: none;padding: 6px 15px;color: #fff;background-color: #c00;border-radius: 3px;cursor: pointer;}
+/*close*/
+.close-dialog1{position:absolute;top:10px;right:10px;width:28px;height:28px;color:#D0CECF;text-align:center;cursor:pointer;font-size: 20px;font-family: "microsoft yahei";font-weight: 400;}
+.close-dialog1:hover{color:#444;}
+/*对话框表单提交成功提示*/
+.success-tip{padding:40px 30px 30px 130px;background:url(../images/tip-ok.jpg) no-repeat 50px 22px;}
+.tip-title{margin-left:-3px;color:#000;font-size:26px;font-weight:bold;}
+.tip-content{color:#666;font-size:12px;}
+/*登录窗口 -----------------------------------------------*/
+.other-login-link {display: block;width: 270px;margin: 15px auto;height: 36px;line-height: 36px;text-align: center;text-indent: 35px;font-size: 16px;border-radius: 3px;color: #fff;background: url(http://www.elecfans.com/skin-2014/images/other-login.png) no-repeat;}
+.other-login-link:hover {color: #fff;text-decoration: none;}
+.sina-login-link {background-color: #FA8C35;background-position: 45px 3px;}
+.qq-login-link {background-color: #0C95D9;background-position: 45px -42px;}
+/*表单*/
+.login-form{margin-left: 40px;border-top: 1px dotted #E5E5E5;width: 270px;position: relative;margin-top: 20px;padding-top: 5px;}
+.login-line {position: absolute;left: 110px;top: -12px;background-color: #fff;display: inline-block;font-size: 14px;color: #ccc;}
+.login-form-item{width: auto;height: auto;margin-top: 15px;}
+.login-input,.login-form-tip,.forgetPw,#back-login-link {background: url(http://www.elecfans.com/skin-2012/images/login-ico1.png) no-repeat;}
+.login-input{float: none;width:225px;height:20px;padding:7px 5px 7px 40px;border:1px solid #D0CECF;border-radius:3px;font-family:\5fae\8f6f\96c5\9ed1;font-size: 16px;line-height: 20px;}
+.li .red-bor {border: 1px solid red;}
+.login-input:focus{border-color:#4aabff;}
+.login-input-username {background-position: 8px 5px;}
+#password {background-position: 8px -33px;}
+/*loading*/
+.btn-area{margin-top: 15px;line-height: normal;}
+.loading{display:none;float:left;position:relative;margin:7px 0 0 -25px;}
+.loading img{display:block;width:16px;height:16px;}
+.login-btn-area .btn-hasLoading-wrap{float:left;margin-left: 0;}
+.btn-area .btn{width: auto;height: auto;line-height: 21px;background-image: none;text-align: left;}
+.btn-area .btn:hover {background: #c20;color: #fff;text-decoration: none;}
+.login-submit,.lostpw-submit {padding: 5px 30px;font-size: 16px;margin: 0;}
+.forgetPw {color: #1EA3E4;padding-right: 48px;background-position: right -103px;float: left;margin-top: 10px;margin-left: 20px;}
+.forgetPw:hover {text-decoration: none;}
+/*表单提示*/
+.login-form-tip {display:none;line-height: 24px;width: 243px;padding-left: 27px;background-position: 0 -73px;font-size: 14px;margin-top: 10px;}
+.login-form-tip.tip-show{display:block;}
+/*忘记密码*/
+.lostpw-form {margin-left: 40px;margin-top: 10px;width: 270px;}
+.login-input-email {background-position: 8px -124px;}
+a#back-login-link {color: #666;text-decoration: none;padding-left: 52px;background-position: 0 -231px;}
+.login-submit {padding: 3px 20px;background-color: #C80C00;border: none;color: #fff;border-radius: 3px;font-family:\5fae\8f6f\96c5\9ed1,\5b8b\4f53;font-size: 14px;}
+.loading {margin-left: -10px;}
